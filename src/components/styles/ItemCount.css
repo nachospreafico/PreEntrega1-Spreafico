@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "Celtic";
+  src: url("/src/font/AONCC___.TTF");
+}
+.controls {
+  display: grid;
+  grid-template-columns: 0.15fr 0.15fr 0.15fr 0.55fr;
+  background-color: rgb(255, 226, 183);
+  gap: 1px;
+  height: fit-content;
+  margin-left: 2px;
+  margin-right: 2px;
+  align-items: center;
+}
+
+button,
+.item-count {
+  font-family: Celtic;
+  font-weight: 1000;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  width: 100%;
+  padding: 0;
+}
+
+button {
+  border-radius: 10px;
+}
+
+.count-divs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+}
